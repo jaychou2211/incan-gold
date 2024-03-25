@@ -12,7 +12,7 @@ export { default as TreasureCard } from "./entities/Card/TreasureCard"
 
 export { default as Artifact } from "./entities/Artifact"
 export { default as Bag } from "./entities/Bag"
-export { default as Deck } from "./entities/Deck"
+export { default as Deck, TrashDeck } from "./entities/Deck"
 export { default as Gem } from "./entities/Gem"
 export { default as IncanGold } from "./entities/IncanGold"
 export { default as Explorer } from "./entities/Explorer"
