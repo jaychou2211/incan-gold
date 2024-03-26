@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { IIncanGoldRepository } from '../interfaces/repository.interface';
+import { IncanGoldRepository as IIncanGoldRepository } from '../interfaces/repository.interface';
 import { Choice } from "../../domain/"
 // import { Output } from '../Dto/UseCaseOutput';
 // import { IEventDispatcher } from "../../../Shared/app/Interface/EventDispatcher";

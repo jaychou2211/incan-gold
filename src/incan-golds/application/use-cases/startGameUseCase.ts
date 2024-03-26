@@ -1,4 +1,4 @@
-import { IIncanGoldRepository } from "../interfaces/repository.interface";
+import { IncanGoldRepository as IIncanGoldRepository } from "../interfaces/repository.interface";
 import { Injectable } from "@nestjs/common";
 import { IncanGold } from "../../domain";
 // import { Output } from '../Dto/UseCaseOutput';
