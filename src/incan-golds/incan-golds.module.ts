@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { IncanGoldsController } from './controller/incan-golds.controller';
 import StartGameUseCase from './application/use-cases/startGameUseCase';
 import MakeChoiceUseCase from './application/use-cases/makeChoiceUseCase';
-import { IIncanGoldRepository } from './application/interfaces/repository.interface';
+import { IncanGoldRepository as IIncanGoldRepository } from './application/interfaces/repository.interface';
 import { IncanGoldRepository } from './infra/db/incan-gold.repository';
 import { IncanGoldMapper } from './infra/incan-gold.mapper';
 import { DatabaseModule } from 'src/database/database.module';
